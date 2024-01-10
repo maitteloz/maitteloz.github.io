@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+    background-image: url(https://ecuaguide.com/wp-content/uploads/2020/05/Cayambe-coca.jpg);
+}
+.logo{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+nav ul{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    list-style-type: none ;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: rgb(226, 218, 141);
+}
+ul{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+.contain{
+    display: flex;
+    margin: 60px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+}
